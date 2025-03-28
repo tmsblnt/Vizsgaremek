@@ -5,7 +5,7 @@ session_start();
 $servername = "localhost";
 $username = ""; // Az adatbázis felhasználó neve
 $password = ""; // Az adatbázis jelszó
-$dbname = "umszkikresz_db"; // Az adatbázis neve
+$dbname = ""; // Az adatbázis neve
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 

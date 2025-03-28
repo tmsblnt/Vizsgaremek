@@ -62,7 +62,7 @@ if (isset($_GET['logout'])) {
 $servername = "localhost";
 $username = ""; // Adatbázis felhasználó
 $password = ""; // Adatbázis jelszó
-$dbname = "umszkikresz_db"; // Az adatbázis neve
+$dbname = ""; // Az adatbázis neve
 
 // Kapcsolódás az adatbázishoz
 $conn = new mysqli($servername, $username, $password, $dbname);

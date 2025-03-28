@@ -3,7 +3,7 @@
 $servername = "localhost";
 $username = "";
 $password = "";
-$dbname = "umszkikresz_db";
+$dbname = "";
 
 // Set default language
 $lang = isset($_GET['lang']) ? $_GET['lang'] : 'hu';
