@@ -20,6 +20,8 @@ Weboldal *dőlt* ez meg itten a **félkövér**
 szam = int(input("Hax"))
 ```
 
+Ezt szerkesztem éppen
+
 ---
 
 ```html
