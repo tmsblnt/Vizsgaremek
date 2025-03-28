@@ -33,3 +33,5 @@ szam = int(input("Hax"))
 ```
 AltGr + 7
 ```
+
+Ebből konflikus lesz
