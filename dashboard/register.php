@@ -3,8 +3,8 @@ session_start();
 
 // Kapcsolódás az adatbázishoz
 $servername = "localhost";
-$username = "umszkikresz"; // Az adatbázis felhasználó neve
-$password = "umszkikresz"; // Az adatbázis jelszó
+$username = ""; // Az adatbázis felhasználó neve
+$password = ""; // Az adatbázis jelszó
 $dbname = "umszkikresz_db"; // Az adatbázis neve
 
 // Kapcsolódás az adatbázishoz

@@ -60,8 +60,8 @@ if (isset($_GET['logout'])) {
 
 // Adatbázis kapcsolat beállítása
 $servername = "localhost";
-$username = "umszkikresz"; // Adatbázis felhasználó
-$password = "umszkikresz"; // Adatbázis jelszó
+$username = ""; // Adatbázis felhasználó
+$password = ""; // Adatbázis jelszó
 $dbname = "umszkikresz_db"; // Az adatbázis neve
 
 // Kapcsolódás az adatbázishoz

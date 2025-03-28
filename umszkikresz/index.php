@@ -1,8 +1,8 @@
 <?php
 // Database connection settings
 $servername = "localhost";
-$username = "umszkikresz";
-$password = "umszkikresz";
+$username = "";
+$password = "";
 $dbname = "umszkikresz_db";
 
 // Set default language
