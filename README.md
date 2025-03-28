@@ -1,4 +1,4 @@
-# Vizsgaremek
+# Informatika Rendszer és Alkalmazás Üzemeltető Technikus Projektmunka
 ![link](umszkikresz/SmallSquareLogoJpg.ico)
 ## LINUX
 ### WEBOLDAL(AK)
