@@ -1,4 +1,5 @@
 # Vizsgaremek
+![link](umszkikresz/SmallSquareLogoJpg.ico)
 ## LINUX
 ### WEBOLDAL(AK)
 1. [BEMUTATÓ](https://tmsblnt.hu/vizsgaremek/)
