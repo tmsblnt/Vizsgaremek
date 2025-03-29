@@ -30,7 +30,7 @@ root@pi:~# chown www-data:www-data /usr/local/apache/var
 #### Samba
 ```console
 root@pi:~# apt install samba
-nano /etc/samba/smb.conf
+root@pi:~# nano /etc/samba/smb.conf
 [megoszt] 
 path = /var/www/webdav
  browseable = yes
