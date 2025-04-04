@@ -42,7 +42,7 @@ path = /var/www/webdav
 service smbd restart
 ```
 ## Windows
-### TODO
+### Active Dirrextory és DNS
 
 ## Packet Tracer
 ### TODO
