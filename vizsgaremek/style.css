@@ -596,6 +596,8 @@ html {
 .contributor-card:hover {
   transform: translateY(-20px) rotateX(10deg);
   box-shadow: 0 20px 40px rgba(0, 255, 255, 0.3);
+  border-color: #ff00 rotateX(10deg);
+  box-shadow: 0 20px 40px rgba(0, 255, 255, 0.3);
   border-color: #ff00ff;
 }
 
@@ -1227,7 +1229,7 @@ html {
   box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
   z-index: 99999999;
   min-width: 200px;
-  max-width: 300px; /* Added max-width */
+  max-width: 700px; /* Added max-width */
   overflow: visible; /* Ensure tooltip is not cut off */
   pointer-events: none; /* Prevent tooltip from blocking mouse events */
 }
@@ -1749,7 +1751,8 @@ html {
 
 /* Twinkle Animation */
 @keyframes twinkle {
-  0%, 100% {
+  0%,
+  100% {
     opacity: 0.3;
     transform: scale(0.8);
   }
@@ -1807,7 +1810,7 @@ html {
   .gantt-row-label {
     width: 40%;
   }
-  
+
   .milestones-container {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1857,15 +1860,15 @@ html {
     flex-direction: column;
     gap: 10px;
   }
-  
+
   .gantt-row-label {
     width: 50%;
   }
-  
+
   .milestones-container {
     grid-template-columns: 1fr;
   }
-  
+
   .resource-cards {
     grid-template-columns: 1fr;
   }
@@ -1879,7 +1882,7 @@ html {
   .slide-thumbnails {
     display: none;
   }
-  
+
   .timeline-container {
     padding-left: 20px;
   }
@@ -1887,20 +1890,22 @@ html {
   .timeline-item {
     padding-left: 20px;
   }
-  
+
   .gantt-months {
     padding-left: 40%;
   }
-  
+
   .gantt-row-label {
     width: 40%;
   }
-  
-  .task-name, .task-date {
+
+  .task-name,
+  .task-date {
     font-size: 0.8rem;
   }
-  
+
   .gantt-bar-label {
     display: none;
   }
 }
+

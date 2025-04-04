@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tmsblnt.hu | Vizsgaremek</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -455,81 +456,45 @@
                             </div>
                         </div>
                         
-                        <!-- Resources Tab -->
+                        <!-- LINKS TAB -->
                         <div class="timeline-tab-content" id="resources-tab">
                             <div class="resources-container">
                                 <div class="resource-section">
-                                    <h4 class="resource-section-title">Emberi erőforrások</h4>
+                                    <h3 class="resource-section-title">Dokumentáció</h3>
                                     <div class="resource-cards">
                                         <div class="resource-card">
                                             <div class="resource-icon">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
                                             </div>
-                                            <h5 class="resource-title">Tamás Bálint</h5>
-                                            <div class="resource-progress">
-                                                <div class="progress-bar" style="width: 100%;"></div>
-                                                <span class="progress-text">100%</span>
-                                            </div>
+                                            <h4 class="resource-title">GitHub Repository</h4>
+                                            <a href="https://github.com/tmsblnt/vizsgaremek" class="website-link" target="_blank">Megtekintés</a>
                                         </div>
-                                        
                                         <div class="resource-card">
                                             <div class="resource-icon">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 16.1A5 5 0 0 1 5.9 20M2 12.05A9 9 0 0 1 9.95 20M2 8V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6"></path><line x1="2" y1="20" x2="2" y2="20"></line></svg>
                                             </div>
-                                            <h5 class="resource-title">Balog Bence</h5>
-                                            <div class="resource-progress">
-                                                <div class="progress-bar" style="width: 100%;"></div>
-                                                <span class="progress-text">100%</span>
-                                            </div>
-                                        </div>
-                                        
-                                        <div class="resource-card">
-                                            <div class="resource-icon">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
-                                            </div>
-                                            <h5 class="resource-title">Nagy Zsombor</h5>
-                                            <div class="resource-progress">
-                                                <div class="progress-bar" style="width: 100%;"></div>
-                                                <span class="progress-text">100%</span>
-                                            </div>
+                                            <h4 class="resource-title">Trello Projekt</h4>
+                                            <a href="https://trello.com/b/YBd2c0NP" class="website-link" target="_blank">Megtekintés</a>
                                         </div>
                                     </div>
                                 </div>
                                 
                                 <div class="resource-section">
-                                    <h4 class="resource-section-title">Technikai erőforrások</h4>
+                                    <h3 class="resource-section-title">Topológia Források</h3>
                                     <div class="resource-cards">
                                         <div class="resource-card">
                                             <div class="resource-icon">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
                                             </div>
-                                            <h5 class="resource-title">Szerverek</h5>
-                                            <div class="resource-progress">
-                                                <div class="progress-bar" style="width: 85%;"></div>
-                                                <span class="progress-text">85%</span>
-                                            </div>
+                                            <h4 class="resource-title">Netacad</h4>
+                                            <a href="https://www.netacad.com/" class="website-link" target="_blank">Megtekintés</a>
                                         </div>
-                                        
                                         <div class="resource-card">
                                             <div class="resource-icon">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.55a11 11 0 0 1 14.08 0"></path><path d="M1.42 9a16 16 0 0 1 21.16 0"></path><path d="M8.53 16.11a6 6 0 0 1 6.95 0"></path><line x1="12" y1="20" x2="12.01" y2="20"></line></svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
                                             </div>
-                                            <h5 class="resource-title">Hálózat</h5>
-                                            <div class="resource-progress">
-                                                <div class="progress-bar" style="width: 95%;"></div>
-                                                <span class="progress-text">95%</span>
-                                            </div>
-                                        </div>
-                                        
-                                        <div class="resource-card">
-                                            <div class="resource-icon">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
-                                            </div>
-                                            <h5 class="resource-title">Adatbázis</h5>
-                                            <div class="resource-progress">
-                                                <div class="progress-bar" style="width: 80%;"></div>
-                                                <span class="progress-text">80%</span>
-                                            </div>
+                                            <h4 class="resource-title">Szabad Információs Társadalom</h4>
+                                            <a href="https://szit.hu/doku.php?id=oktatas:halozat" class="website-link" target="_blank">Megtekintés</a>
                                         </div>
                                     </div>
                                 </div>
@@ -1368,3 +1333,4 @@ sudo /usr/sbin/backup-manager
     </script>
 </body>
 </html>
+
