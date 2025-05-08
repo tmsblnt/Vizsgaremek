@@ -43,6 +43,3 @@ service smbd restart
 ```
 ## Windows
 ### Active Dirrextory és DNS
-
-## Packet Tracer
-### TODO
