@@ -146,7 +146,7 @@
                                 'id' => 'doc3',
                                 'title' => 'Topológia',
                                 'description' => 'Draw.io, Packet Tracer teljes és részleges topológia',
-                                'file' => ''
+                                'file' => 'topologia.pdf'
                             ],
                             [
                                 'id' => 'doc4',
@@ -228,39 +228,6 @@
             <!-- Presentation Page -->
             <section id="presentation" class="page">
                 <h1 class="page-title">Prezentáció</h1>
-                
-                <!-- PowerPoint Viewer Container -->
-                <div class="ppt-container">
-                    <div class="ppt-header">
-                        <div class="ppt-title">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ppt-icon"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
-                            <h3>UMSZKI KRESZ Vizsgaremek Prezentáció</h3>
-                        </div>
-                        <div class="ppt-controls">
-                            <a href="presentation.pptx" download class="ppt-control-button" id="downloadBtn" title="Letöltés">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-                            </a>
-                        </div>
-                    </div>
-                    
-                    <div class="ppt-viewer-container">                        
-                        <div class="ppt-viewer" id="pptViewer" style="display: none;">
-                            <iframe id="pptFrame" class="ppt-frame" src="/placeholder.svg" frameborder="0" allowfullscreen></iframe>
-                            <div class="slide-navigation">
-                                <div class="slide-thumbnails" id="slideThumbnails">
-                                    <!-- Slide thumbnails will be generated here -->
-                                </div>
-                                <div class="slide-progress">
-                                    <div class="progress-bar" id="progressBar"></div>
-                                </div>
-                                <div class="slide-counter">
-                                    <span id="currentSlide">1</span> / <span id="totalSlides">5</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
                 <!-- Enhanced Detailed Project Timeline Section -->
                 <div class="presentation-timeline enhanced-timeline">
                     <div class="timeline-header">
@@ -308,14 +275,14 @@
                                         <div class="gantt-row">
                                             <div class="gantt-row-label">
                                                 <span class="task-name">Projekt Indítása</span>
-                                                <span class="task-date">2024.11.01 - 2025.12.01</span>
+                                                <span class="task-date">2024.12.25 - 2025.01.06</span>
                                             </div>
                                             <div class="gantt-row-bars">
                                                 <div class="gantt-bar" style="width: 15%; left: 0%;">
-                                                    <div class="gantt-bar-label">1 hónap</div>
+                                                    <div class="gantt-bar-label">12</div>
                                                     <div class="gantt-tooltip">
                                                         <div class="tooltip-title">Projekt Indítása</div>
-                                                        <div class="tooltip-dates">2024.11.01 - 2025.12.01</div>
+                                                        <div class="tooltip-dates">2024.12.25 - 2025.01.06</div>
                                                         <div class="tooltip-desc">Csapat összeszervezése, kezdeti tervezés</div>
                                                     </div>
                                                 </div>
@@ -326,14 +293,14 @@
                                         <div class="gantt-row">
                                             <div class="gantt-row-label">
                                                 <span class="task-name">Tervezési Fázis</span>
-                                                <span class="task-date">2025.01.03 - 2025.01.17</span>
+                                                <span class="task-date">2025.01.06 - 2025.01.17</span>
                                             </div>
                                             <div class="gantt-row-bars">
                                                 <div class="gantt-bar" style="width: 20%; left: 15%;">
-                                                    <div class="gantt-bar-label">2 hét</div>
+                                                    <div class="gantt-bar-label">11 nap</div>
                                                     <div class="gantt-tooltip">
                                                         <div class="tooltip-title">Tervezési Fázis</div>
-                                                        <div class="tooltip-dates">2025.01.03 - 2025.01.17</div>
+                                                        <div class="tooltip-dates">2025.01.06 - 2025.01.17</div>
                                                         <div class="tooltip-desc">Követelmények meghatározása, architektúra tervezése | kivitelezése</div>
                                                     </div>
                                                 </div>
@@ -343,16 +310,16 @@
                                         
                                         <div class="gantt-row">
                                             <div class="gantt-row-label">
-                                                <span class="task-name">Fejlesztés Kezdete</span>
-                                                <span class="task-date">2023.11.01 - 2023.12.15</span>
+                                                <span class="task-name">Fejlesztési fázis</span>
+                                                <span class="task-date">2025.01.18 - 2025.03.31</span>
                                             </div>
                                             <div class="gantt-row-bars">
                                                 <div class="gantt-bar" style="width: 25%; left: 35%;">
-                                                    <div class="gantt-bar-label">6 hét</div>
+                                                    <div class="gantt-bar-label">73 nap</div>
                                                     <div class="gantt-tooltip">
                                                         <div class="tooltip-title">Fejlesztés Kezdete</div>
-                                                        <div class="tooltip-dates">2023.11.01 - 2023.12.15</div>
-                                                        <div class="tooltip-desc">Weboldal és szerverek fejlesztése</div>
+                                                        <div class="tooltip-dates">2025.01.18 - 2025.03.31</div>
+                                                        <div class="tooltip-desc">Teljes architektúra kiépítése</div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -361,14 +328,14 @@
                                         <div class="gantt-row">
                                             <div class="gantt-row-label">
                                                 <span class="task-name">Tesztelés</span>
-                                                <span class="task-date">2023.12.15 - 2024.01.15</span>
+                                                <span class="task-date">2025.04.01 - 2025.04.07</span>
                                             </div>
                                             <div class="gantt-row-bars">
                                                 <div class="gantt-bar" style="width: 15%; left: 60%;">
-                                                    <div class="gantt-bar-label">4 hét</div>
+                                                    <div class="gantt-bar-label">6 nap</div>
                                                     <div class="gantt-tooltip">
                                                         <div class="tooltip-title">Tesztelés</div>
-                                                        <div class="tooltip-dates">2023.12.15 - 2024.01.15</div>
+                                                        <div class="tooltip-dates">2025.04.01 - 2025.04.07</div>
                                                         <div class="tooltip-desc">Rendszer tesztelése, hibák javítása</div>
                                                     </div>
                                                 </div>
@@ -379,14 +346,14 @@
                                         <div class="gantt-row">
                                             <div class="gantt-row-label">
                                                 <span class="task-name">Projekt Lezárása</span>
-                                                <span class="task-date">2024.01.15 - 2024.03.15</span>
+                                                <span class="task-date">2025.04.07 - 2025.05.08</span>
                                             </div>
                                             <div class="gantt-row-bars">
                                                 <div class="gantt-bar highlight-bar" style="width: 25%; left: 75%;">
-                                                    <div class="gantt-bar-label">8 hét</div>
+                                                    <div class="gantt-bar-label">32 nap</div>
                                                     <div class="gantt-tooltip">
                                                         <div class="tooltip-title">Projekt Lezárása</div>
-                                                        <div class="tooltip-dates">2024.01.15 - 2024.03.15</div>
+                                                        <div class="tooltip-dates">2025.04.07 - 2025.05.08</div>
                                                         <div class="tooltip-desc">Dokumentáció véglegesítése, projekt átadása</div>
                                                     </div>
                                                 </div>
@@ -400,7 +367,7 @@
                                             </div>
                                             <div class="gantt-row-bars">
                                             </div>
-                                    </div>
+                                        </div>
                                     </div>
                                 </div>
                                 
